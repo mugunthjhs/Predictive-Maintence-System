@@ -1,0 +1,15 @@
+# ML artifacts
+models/
+mlruns/
+data/
+
+# Images / reports
+reports/figures/
+
+# checkpoints
+*.pkl
+*.pt
+*.h5
+
+# logs
+logs/
