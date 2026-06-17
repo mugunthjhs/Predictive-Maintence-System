@@ -165,7 +165,7 @@ Predictive-Maintence-System/
 
 ```bash
 # Clone and set up a virtual environment
-git clone <repo-url>
+git clone <https://github.com/mugunthjhs/Predictive-Maintence-System>
 cd Predictive-Maintence-System
 python -m venv venv
 
