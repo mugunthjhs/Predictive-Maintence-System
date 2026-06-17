@@ -126,6 +126,7 @@ Raw Sensor Data (14 sensors × N cycles per engine)
 Predictive-Maintence-System/
 │
 ├── config.yaml               ← Single source of truth for all parameters
+├── requirements.txt          ← Python dependencies
 ├── train.py                  ← Training CLI entry point
 ├── demo.py                   ← Full end-to-end interactive demo
 │
@@ -175,8 +176,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install dependencies
-pip install pandas numpy scipy scikit-learn xgboost lightgbm mlflow \
-            fastapi uvicorn pydantic pyyaml rich pytest pytest-cov
+pip install -r requirements.txt
 ```
 
 ```bash
